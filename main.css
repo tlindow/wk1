@@ -17,6 +17,12 @@ html {
   padding-bottom: 150px;
 }
 
+.flex-holder {
+  height: 600px;
+  width: 600px;
+  background-color: #ffffff;
+}
+
 .vertical {
   height: 600px;
   width: 600px;
