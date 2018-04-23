@@ -1,5 +1,20 @@
 html {
+  background-color: #ffffff;
+}
+
+body {
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
   background-color: #E61F0D;
+}
+
+h1 {
+  position: fixed;
+  background-color: #ffffff;
+  color: #E61F0D;
+  font-size: 70px;
+  width: 100%;
+  margin: 0;
 }
 
 /* Flex divs not really being utilized right now */
@@ -15,7 +30,6 @@ html {
   /* line-height: 0.55em; */
   color: #ffffff;
   font-size: 250px;
-  font-family: 'Source Code Pro', monospace;
   padding-bottom: 150px;
 }
 
@@ -23,7 +37,7 @@ html {
 
 .flex-holder {
   height: 600px;
-  width: 600px;
+  width: 50%;
   background-color: #ffffff;
 }
 
@@ -35,6 +49,7 @@ html {
   text-align: center;
   cursor: default;
   line-height: 0.8em;
+  width: 50%;
 }
 
 /* The Jasper Johns entire painting */
@@ -61,6 +76,10 @@ html {
   writing-mode: horizontal-tb;
 }
 
+.purple:hover {
+  background-color: #28ab49;
+}
+
 .blue {
   background-color: #356daf;
   width: 150px;
@@ -68,6 +87,10 @@ html {
   text-align: center;
   letter-spacing: normal;
   writing-mode: horizontal-tb;
+}
+
+.blue:hover {
+  background-color: #f581e9;
 }
 
 .orange {
@@ -79,6 +102,10 @@ html {
   writing-mode: horizontal-tb;
 }
 
+.orange:hover {
+  background-color: #9a3fa8;
+}
+
 .pink {
   background-color: #f581e9;
   width: 150px;
@@ -86,6 +113,10 @@ html {
   text-align: center;
   letter-spacing: normal;
   writing-mode: horizontal-tb;
+}
+
+.pink:hover {
+  background-color: #eb9938;
 }
 
 .teal {
@@ -97,6 +128,10 @@ html {
   writing-mode: horizontal-tb;
 }
 
+.teal:hover {
+  background-color: #356daf;
+}
+
 .green {
   background-color: #28ab49;
   width: 150px;
@@ -104,6 +139,10 @@ html {
   text-align: center;
   letter-spacing: normal;
   writing-mode: horizontal-tb;
+}
+
+.green:hover {
+  background-color: #28ab93;
 }
 
 .g {
