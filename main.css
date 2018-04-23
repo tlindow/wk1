@@ -2,6 +2,8 @@ html {
   background-color: #E61F0D;
 }
 
+/* Flex divs not really being utilized right now */
+
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -17,19 +19,25 @@ html {
   padding-bottom: 150px;
 }
 
+/* Placeholder divs for media */
+
 .flex-holder {
   height: 600px;
   width: 600px;
   background-color: #ffffff;
 }
 
-.vertical {
+/* Divs for the artists names */
+
+.names {
   height: 600px;
   width: 600px;
   text-align: center;
   cursor: default;
   line-height: 0.8em;
 }
+
+/* The Jasper Johns entire painting */
 
 .vertical-painting {
   width: 600px;
@@ -42,55 +50,7 @@ html {
   left: 100px;
 }
 
-.vertical-hidden {
-  width: 80%;
-  text-align: center;
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-  letter-spacing: -150px;
-  cursor: default;
-}
-
-/* .vertical:active {
-  width: 600px;
-  height: 600px;
-  cursor: default;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  top: 100px;
-  left: 100px;
-} */
-
-.vertical-hidden:active {
-  font-size: 0;
-  background: #ffffff;
-  cursor: pointer;
-  height: inherit;
-  display: block;
-}
-
-@keyframes flipInY {
-  from {
-    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
-    animation-timing-function: ease-in;
-    opacity: 0;
-  }
-  40% {
-    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
-    animation-timing-function: ease-in;
-  }
-  60% {
-    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
-    opacity: 1;
-  }
-  80% {
-    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
-  }
-  to {
-    transform: perspective(400px);
-  }
-}
+/* For the background colors and text colors of the Jasper Johns painting */
 
 .purple {
   background-color: #9a3fa8;
