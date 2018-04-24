@@ -1,20 +1,37 @@
 html {
-  background-color: #ffffff;
+  background-color: #E61F0D;
+  font-family: 'Source Code Pro', monospace;
 }
 
 body {
-  font-family: 'Source Code Pro', monospace;
   margin: 0;
   background-color: #E61F0D;
+  width: 5000px;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 h1 {
-  position: fixed;
   background-color: #ffffff;
   color: #E61F0D;
-  font-size: 70px;
-  width: 100%;
+  font-size: 100px;
+  width: 500px;
   margin: 0;
+  padding: 5px;
+  transform: rotate(-20deg);
+  position: absolute;
+  top: 28%;
+  left: 25%;
+}
+
+p {
+  top: 600px;
+  font-size: 25px;
+  color: #E61F0D;
+  position: absolute;
+  background-color: #ffffff;
+  width: 1200px;
+  transform: rotate(-0.5deg);
 }
 
 /* Flex divs not really being utilized right now */
@@ -23,6 +40,7 @@ h1 {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: 5000px;
 }
 
 .flex-container>div {
@@ -36,27 +54,26 @@ h1 {
 /* Placeholder divs for media */
 
 .flex-holder {
-  height: 600px;
-  width: 50%;
+  height: 650px;
+  width: 650px;
   background-color: #ffffff;
 }
 
 /* Divs for the artists names */
 
 .names {
-  height: 600px;
-  width: 600px;
+  height: 650px;
+  width: 650px;
   text-align: center;
   cursor: default;
   line-height: 0.8em;
-  width: 50%;
 }
 
 /* The Jasper Johns entire painting */
 
 .vertical-painting {
   width: 600px;
-  height: 600px;
+  height: 650px;
   cursor: default;
   display: flex;
   flex-direction: column;
