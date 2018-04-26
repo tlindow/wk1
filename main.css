@@ -59,6 +59,14 @@ p {
   background-color: #ffffff;
 }
 
+.flex-iframe {
+  background-color: ##E61F0D;
+  height: 450px;
+  width: 650px;
+  margin-top: 200px;
+  align:center;
+}
+
 /* Divs for the artists names */
 
 .names {
