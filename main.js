@@ -1,6 +1,7 @@
 var lineDrawing = anime({
   targets: '#lineDrawing .lines path',
   strokeDashoffset: [anime.setDashoffset, 0],
+  backgroundColor: '#ffffff',
   easing: 'easeInOutSine',
   duration: 1500,
   delay: function(el, i) {

@@ -24,6 +24,10 @@ h1 {
   left: 25%;
 }
 
+.lines {
+  fill: none;
+}
+
 p {
   top: 600px;
   font-size: 25px;
@@ -64,7 +68,7 @@ p {
   height: 450px;
   width: 650px;
   margin-top: 200px;
-  align:center;
+  align: center;
 }
 
 /* Divs for the artists names */
